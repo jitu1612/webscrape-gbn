@@ -2,20 +2,27 @@
 
 Websites supported for scraping - BigBasket, Grofers and Natures Basket
 
-# Run in Command Line
+## Run in Command Line
 
 Command to run this npm
+```bash
 node app.js -u Your-URL-String OR -url Your-URL-String
-eg:--
+```
+eg:-
 
+```bash
 node app.js -u https://grofers.com/prn/maggi-masala-noodles/prid/169812
+```
 
-# Install this NPM
+## Install this NPM
 
-npm i webscrape-gbn
+```bash
+npm i webscrape-gbn --save
+```
 
-# Usage
+## Usage
 
+```javascript
 var scrape = require('webscrape-gbn')
 
 scrape.webscrape('https://grofers.com/prn/maggi-masala-noodles/prid/169812',function(err,data){
@@ -25,3 +32,7 @@ scrape.webscrape('https://grofers.com/prn/maggi-masala-noodles/prid/169812',func
     console.log(data)
   }
 })
+```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
