@@ -1,4 +1,4 @@
-# A simle webscraping module for websites like BigBasket, Grofers and Natures Basket
+# A simple web scraping module for websites like BigBasket, Grofers and Natures Basket
 
 Websites supported for scraping - BigBasket, Grofers and Natures Basket
 
