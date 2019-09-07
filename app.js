@@ -61,6 +61,7 @@ request(url, options, function(err, response, html){
                 callback && callback(null,json)
         }else{
             info();
+            callback && callback("Websites supported for scraping - BigBasket, Grofers and Natures Basket",null)
         }
         
     }

@@ -1,10 +1,11 @@
-# A simple web scraping module for websites like BigBasket, Grofers and Natures Basket
+# webscrape-gbn
 
-Websites supported for scraping - BigBasket, Grofers and Natures Basket
+## Description
 
-## Run in Command Line
+A simple web scraping module. Supported websites for web scraping are BigBasket, Grofers and Natures Basket. 
 
-Command to run this npm
+## Command to run this npm
+
 ```bash
 node app.js -u Your-URL-String OR -url Your-URL-String
 ```
@@ -22,14 +23,18 @@ npm i webscrape-gbn --save
 
 ## Usage
 
+You just have to pass url of product page of supported websites. 
+
+You will get response in JSON format.
+
 ```javascript
-var scrape = require('webscrape-gbn')
+var scrape = require('webscrape-gbn');
 
 scrape.webscrape('https://grofers.com/prn/maggi-masala-noodles/prid/169812',function(err,data){
  if(err){
-    console.log(err)
+    console.log(err);
   }else{
-    console.log(data)
+    console.log(data);
   }
 })
 ```
