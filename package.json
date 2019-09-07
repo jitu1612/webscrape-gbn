@@ -1,6 +1,6 @@
 {
   "name": "webscrape-gbn",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "big basket grofers chir faad",
   "main": "app.js",
   "scripts": {
@@ -27,5 +27,4 @@
     "type": "git",
     "url": "git+https://github.com/jitu1612/webscrape-gbn.git"
   }
-  
 }
